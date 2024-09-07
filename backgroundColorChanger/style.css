@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 60px;
+}
+
+h2 {
+    color: #555;
+}
+
+.colour {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #000;
+    transition: transform 0.2s;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color:chartreuse;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
